@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Екатерина Гурова](https://up.htmlacademy.ru/htmlcss-individual/1/user/2374249).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Румянцев](https://htmlacademy.ru/profile/id1521451).
 
 ---
 
