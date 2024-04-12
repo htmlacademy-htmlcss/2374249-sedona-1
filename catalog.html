@@ -18,7 +18,7 @@
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link navigation-link-current"  href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigator-list navigation-user">
@@ -47,8 +47,74 @@
         </ul>
       </nav>
     </header>
-    <main class="main-index">
+    <main class="main-inner">
+      <section class="inner-header">
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link"><img src="#"></a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">Главная</a>
+          </li>
+        </ul>
+      </section>
+      <section class="catalog-product">
+        <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+        <form class="catalog-filter" action="" method="get">
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Бассейн" checked>
+              Бассейн
+            </label>
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Парковка" checked>
+              Парковка
+            </label>
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Wi-Fi">
+              Wi-Fi
+            </label>
+          </fieldset>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Тип жилья:</legend>
+            <label class="control">
+              <input class="control-input" type="radio" name="hotel-group" value="hotel" checked>
+              Гостиница
+            </label>
+            <label class="control">
+              <input class="control-input" type="radio" name="hotel-group" value="motel">
+              Мотель
+            </label>
+            <label class="control">
+              <input class="control-input" type="radio" name="hotel-group" value="apartments">
+              Апартаменты
+            </label>
+          </fieldset>
+          <button class="button" type="submit">Показать</button>
+          <button class="button" type="submit">Скрыть</button>
+        </form>
+        <h2 class="select-title">Найдено гостиниц: 38</h2>
+        <select class="select-control" aria-label="Сортировка">
+          <option value="popular">Сначала популярное</option>
+          <option value="cheap">Сначала дешёвое</option>
+          <option value="expensive">Сначала дорогое</option>
+        </select>
+        <a href="#" class="select-control" aria-label="Сортировка">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+        <a class="button" href="#">
+          <span class="visually-hidden">???</span>
+        </a>
+        <a class="button" href="#">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+      </section>
+      <div>
 
+      </div>
+    </main>
     <footer class="page-footer">
       <section class="footer-contacts">
         <h2 class="visually-hidden">Контакты</h2>
