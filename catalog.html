@@ -101,19 +101,90 @@
           <option value="cheap">Сначала дешёвое</option>
           <option value="expensive">Сначала дорогое</option>
         </select>
-        <a href="#" class="select-control" aria-label="Сортировка">
+        <a href="#" class="button button-light">
           <span class="visually-hidden">Показать список</span>
         </a>
         <a class="button" href="#">
-          <span class="visually-hidden">???</span>
+          <span class="visually-hidden">Показать карточку</span>
         </a>
         <a class="button" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
       </section>
-      <div>
-
-      </div>
+      <h2 class="visually-hidden">Список гостиниц</h2>
+      <ul class="hotel-list">
+        <li class="hotel-card">
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="#" alt="Amara Resort & Spa">
+            <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+          </a>
+          <p class="hotel-card-description">Гостиница</p>
+          <b class="hotel-card-price">От 4000 ₽</b>
+          <a class="hotel-card-button button" href="#">Подробнее</a>
+          <button class="hotel-card-button">В избранное</button>
+          <img class="hotel-card-rating-image" src="#">
+          <div class="hotel-card-rating-meaning">Рейтинг: 8,5</div>
+        </li>
+        <li class="hotel-card">
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="#" alt="Villas at Poco Diablo">
+            <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
+          </a>
+          <p class="hotel-card-description">Гостиница</p>
+          <b class="hotel-card-price">От 5000 ₽</b>
+          <a class="hotel-card-button button" href="#">Подробнее</a>
+          <button class="hotel-card-button hotel-card-button-included">В избранном</button>
+          <img class="hotel-card-rating-image" src="#">
+          <div class="hotel-card-rating-meaning">Рейтинг: 9,2</div>
+        </li>
+        <li class="hotel-card">
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="#" alt="Desert Quail Inn">
+            <h3 class="hotel-card-title">Desert Quail Inn</h3>
+          </a>
+          <p class="hotel-card-description">Гостиница</p>
+          <b class="hotel-card-price">От 2500 ₽</b>
+          <a class="hotel-card-button button" href="#">Подробнее</a>
+          <button class="hotel-card-button">В избранное</button>
+          <img class="hotel-card-rating-image" src="#">
+          <div class="hotel-card-rating-meaning">Рейтинг: 6,9</div>
+        </li>
+        <li class="hotel-card">
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="#" alt="GreenTree Inn">
+            <h3 class="hotel-card-title">GreenTree Inn</h3>
+          </a>
+          <p class="hotel-card-description">Гостиница</p>
+          <b class="hotel-card-price">От 1500 ₽</b>
+          <a class="hotel-card-button button" href="#">Подробнее</a>
+          <button class="hotel-card-button">В избранное</button>
+          <img class="hotel-card-rating-image" src="#">
+          <div class="hotel-card-rating-meaning">Рейтинг: 5,0</div>
+        </li>
+      </ul>
+      <ul class="panagination">
+        <li class="panagination-item">
+          <a class="panagination-link panagination-current">1</a>
+        </li>
+        <li class="panagination-item">
+          <a class="panagination-link">1</a>
+        </li>
+        <li class="panagination-item">
+          <a class="panagination-link">2</a>
+        </li>
+        <li class="panagination-item">
+          <a class="panagination-link">3</a>
+        </li>
+        <li class="panagination-item">
+          <a class="panagination-link">4</a>
+        </li>
+        <li class="panagination-item">
+          <a class="panagination-link">...</a>
+        </li>
+        <li class="panagination-item">
+          <a class="panagination-link">10</a>
+        </li>
+      </ul>
     </main>
     <footer class="page-footer">
       <section class="footer-contacts">
@@ -130,7 +201,7 @@
           </li>
         </ul>
         <a class="footer-contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
-        <a class="logo" href="https://htmlacademy.ru/"><img src="#" class=""></a>
+        <a class="logo" href="https://htmlacademy.ru/"><img src="#" alt="Логотип htmlacademy" class="logo-image"></a>
       </section>
     </footer>
   </body>
